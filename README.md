@@ -21,7 +21,7 @@ This project is designed to be deployed using Docker and Google Cloud services. 
 Navigate to the project root directory and build the Docker image. Replace `"apikey"` with your actual Google API key.
 
 ```bash
-cd ~/SuperDemo/working_backup_v22/agriconnect-refactored
+cd ~/SuperDemo/agriconnect-refactored
 docker build --build-arg GOOGLE_API_KEY_ARG="YOUR_GOOGLE_API_KEY" -t agriconnect-server .
 2. Run the Docker Container:
 Run the built Docker container, mapping the necessary ports for the MCP and Gateway servers.
@@ -32,7 +32,7 @@ After the server is running, you can interact with the system and test individua
 
 Activate virtual environment:
 
-cd ~/SuperDemo/working_backup_v22/agriconnect-refactored && avenv
+cd ~/SuperDemo/agriconnect-refactored && avenv
 Run the Orchestrator Agent (for high-level interaction):
 
 cd agents && adk web

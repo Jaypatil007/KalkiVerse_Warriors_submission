@@ -1,0 +1,3 @@
+# trade_orchestrator/sub_agents/logistics_status_update_agent/__init__.py
+
+from .agent import logistics_status_update_agent

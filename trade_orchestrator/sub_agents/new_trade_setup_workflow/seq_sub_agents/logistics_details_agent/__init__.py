@@ -1,0 +1,3 @@
+# trade_orchestrator/sub_agents/new_trade_setup_workflow/seq_sub_agents/logistics_details_agent/__init__.py
+
+from .agent import logistics_details_agent

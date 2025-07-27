@@ -1,0 +1,5 @@
+google-cloud-firestore
+google-adk==1.0.0
+mcp==1.9.1
+python-dotenv
+google-cloud-pubsub

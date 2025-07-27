@@ -1,0 +1,5 @@
+google-adk
+uvicorn
+google-cloud-storage
+google-generativeai
+python-dotenv

@@ -1,0 +1,33 @@
+# Core A2A and Agent SDK packages
+a2a-sdk>=0.2.9
+google-adk>=1.1.1
+google-genai>=1.0.0
+google-generativeai>=0.8.5
+
+# Web framework and server
+fastapi
+uvicorn
+sse-starlette
+
+# HTTP clients and async utilities
+httpx
+httpx-sse
+asyncclick
+click
+
+# Data validation and configuration
+pydantic
+pydantic-settings
+python-dotenv
+
+# For Vertex AI integration
+google-cloud-aiplatform
+
+# MCP and FastMCP for the server
+mcp[cli]>=1.5.0
+fastmcp>=1.0
+
+# Data and build tools
+pandas
+numpy
+setuptools

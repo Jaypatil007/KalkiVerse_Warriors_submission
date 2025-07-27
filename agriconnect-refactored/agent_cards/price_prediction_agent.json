@@ -1,0 +1,22 @@
+{
+    "name": "smart_price_prediction_agent_v2",
+    "description": "A smart agent that predicts agricultural produce prices by consulting two specialist sub-agents for current (Google Search) and historical (Vertex AI Search) data.",
+    "url": "http://localhost:10001/",
+    "version": "2.0.0",
+    "defaultInputModes": ["text"],
+    "defaultOutputModes": ["text"],
+    "capabilities": { "streaming": true },
+    "skills": [
+      {
+        "id": "smart_price_prediction",
+        "name": "Data-Driven Crop Price Prediction",
+        "description": "Provides a price forecast and optimal selling time by synthesizing real-time web data and historical datastore trends.",
+        "tags": ["price", "market", "forecast", "prediction", "google search", "vertex ai", "smart", "sell time"],
+        "examples": [
+          "What is the forecast for wheat prices in Punjab?",
+          "Give me a detailed price prediction for tomatoes in Nashik",
+          "Should I sell my basmati rice now or wait?"
+        ]
+      }
+    ]
+  }

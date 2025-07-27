@@ -1,0 +1,35 @@
+# Ignore dependency directories
+node_modules/
+vendor/
+
+# Ignore build artifacts
+dist/
+build/
+target/
+out/
+
+# Ignore log files
+*.log
+
+# Ignore IDE/editor configuration files
+.idea/
+.vscode/
+*.swp
+*~
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive information (example, tailor this to your needs!)
+# .env
+# config.local.js
+# secrets.json
+
+# Ignore temporary files
+*.tmp
+*.$$$
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/

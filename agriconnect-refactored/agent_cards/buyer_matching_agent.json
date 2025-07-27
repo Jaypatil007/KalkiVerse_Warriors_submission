@@ -1,0 +1,22 @@
+{
+    "name": "smart_buyer_matching_agent",
+    "description": "A smart agent that uses a real-time datastore to find and vet potential buyers. It identifies potential buyers for the farmer's produce from a real-time datastore, and helps negotiate terms.",
+    "url": "http://localhost:10002/",
+    "version": "2.0.0",
+    "defaultInputModes": ["text"],
+    "defaultOutputModes": ["text"],
+    "capabilities": { "streaming": true },
+    "skills": [
+      {
+        "id": "smart_buyer_matching",
+        "name": "Datastore-Powered Buyer Matching",
+        "description": "Identifies potential buyers by querying a real-time Vertex AI Search datastore. Helps with negotiations based on retrieved buyer profiles.",
+        "tags": ["buyer", "sell", "negotiate", "trade", "find buyers", "datastore", "vertex ai search", "smart match"],
+        "examples": [
+          "Find a buyer for my 5 tons of premium potatoes from the datastore.",
+          "I want to sell organic basmati rice, can you find a verified buyer?",
+          "Search the buyer database to connect me with purchasers for my crops."
+        ]
+      }
+    ]
+  }

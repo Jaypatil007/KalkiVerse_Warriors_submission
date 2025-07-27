@@ -1,0 +1,22 @@
+{
+    "name": "trade_coordination_agent",
+    "description": "A specialized agent that handles all post-sale activities like logistics and payment tracking. Manages logistics, sends alerts, and tracks transactions once a trade agreement is in place.",
+    "url": "http://localhost:10003/",
+    "version": "1.0.0",
+    "defaultInputModes": ["text"],
+    "defaultOutputModes": ["text"],
+    "capabilities": { "streaming": true },
+    "skills": [
+      {
+        "id": "trade_coordination",
+        "name": "Post-Sale Trade Coordination",
+        "description": "Manages logistics, sends alerts, and tracks transactions once a trade agreement is in place.",
+        "tags": ["logistics", "transport", "payment", "tracking", "delivery", "manage trade", "after sale"],
+        "examples": [
+          "I have sold my mangoes, now I need to arrange transport.",
+          "Can you help me track the payment for my potato sale?",
+          "I need help managing logistics for a sale I've already made."
+        ]
+      }
+    ]
+  }
